@@ -6,6 +6,8 @@ import About from './pages/About';
 import Rules from './pages/Rules';
 import FAQ from './pages/FAQ';
 import DoesNotExist from './pages/DoesNotExist';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
             <Route exact path="/Rules">
               <Rules />
             </Route >
+            <Route exact path="/Login">
+              <Login />
+            </Route>
+            <Route exact path="/SignUp">
+              <SignUp />
+            </Route>
             <Route path="*">
               <DoesNotExist />
             </Route>
