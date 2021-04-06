@@ -14,6 +14,38 @@
       "message": "another message",
       "user": "Anonymous",
       "id": 2
+    },
+    {
+      "message": "hello",
+      "user": "Anonymous",
+      "id": 4
+    },
+    {
+      "message": "awdawd",
+      "user": "Anonymous",
+      "id": 5
+    },
+    {
+      "message": "eg",
+      "user": "Anonymous",
+      "id": 6
+    }
+  ],
+  "account": [
+    {
+      "email": "johndoe@hi.com",
+      "password": "hello",
+      "id": 1
+    },
+    {
+      "email": "janedoe@hi.com",
+      "password": "yes",
+      "id": 2
+    },
+    {
+      "email": "randomdude@hi.com",
+      "password": "no",
+      "id": 3
     }
   ]
 }
